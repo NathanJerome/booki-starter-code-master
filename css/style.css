@@ -20,6 +20,10 @@ header{
     align-items: center;
 }
 
+header img{
+    width: 80px;
+}
+
 nav li , a {
     list-style: none;
     text-decoration: none;
@@ -29,13 +33,18 @@ nav li , a {
 
 }
 
+nav a:hover{
+    color:#0065FC;
+    border-top: solid 2px #0065FC;
+}
+
 /*Search Bar*/
 .search-bar {
     display: inline-block;
     padding-bottom: 30px;
 }
 
-#localisation, img{
+#localisation, img #localisation{
     width: 30px;
     padding: 0;
 
