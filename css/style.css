@@ -24,7 +24,7 @@ header img{
     width: 80px;
 }
 
-nav li , a {
+nav li , .nav {
     list-style: none;
     text-decoration: none;
     color: black ;
@@ -250,8 +250,11 @@ body {
 footer {
     background-color: #f2f2f2;
     display: flex;
-    margin-top: 30px;
-    justify-content:space-around
+    margin-top: 60px;
+    justify-content:space-between;
+    padding-bottom: 5px;
+    padding-right: 150px;
+    padding-left: 10px;
 
 }
 
@@ -263,6 +266,13 @@ footer {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+.a-footer{
+    text-decoration: none;
+    color: black ;
+    display: inline-block;
+    padding: 5px;
 }
 
 
