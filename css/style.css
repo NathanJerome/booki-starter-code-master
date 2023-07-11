@@ -58,11 +58,18 @@ p  {
 
 
 }
-#localisation{
+.locate{
     background-color:#F2F2F2;
     border-color: #F2F2F2 ;
     padding: 5px 5px;
     border-radius: 5px 0px 0px 5px;
+}
+
+.locate i{
+    color: black;
+    margin-bottom: 40px;
+    padding: 4px 10px;
+    margin-right: 5px;
 }
 
 input[type="submit"]{
@@ -95,6 +102,13 @@ input[type="text"]{
     background-color: #deebff;
 }
 
+.info .fa-solid{
+    border: 2px solid #F2F2F2;
+    border-radius: 100%;
+    margin-bottom: 40px;
+    padding: 4px 10px;
+    margin-right: 5px;
+}
 /*Main*/
 
 body {
@@ -187,7 +201,7 @@ body {
     box-sizing: border-box;
 }
 
-.populaires-cards .card-title {
+.populaires-cards .card-title .activites.card {
     margin-top: 10px;
     margin-bottom: 4px;
 }
@@ -200,6 +214,56 @@ body {
     margin-bottom: 5px;
 }
 
+
+/* Activites*/
+
+.activites-card{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+.activites-card img{
+    height: 300px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.activites-card > .card{
+    padding: 0;
+    border-top-left-radius: 30px;
+    object-fit: cover;
+}
+
+.card-txt{
+    margin: 10px;
+}
+
+
+/* Footer*/    
+
+footer {
+    background-color: #f2f2f2;
+    display: flex;
+    margin-top: 30px;
+    justify-content:space-around
+
+}
+
+.container-row{
+   
+}
+
+.container-column-ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
 
 

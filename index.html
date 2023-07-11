@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/32c7b940c9.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,8 +22,8 @@
             <img src="images/logo/Booki.png">
             <nav>
                 <ul>
-                    <li><a href="#">Hebergements</a></li>
-                    <li><a href="#">Activités</a></li>
+                    <li><a href="#ancre-hebergements">Hebergements</a></li>
+                    <li><a href="#ancre-activites">Activités</a></li>
                 </ul>
             </nav>
         </header>
@@ -32,7 +34,7 @@
             <div class="research">
                 <section class="search-bar">
                     <form class="research-form"  method="get" action="#">
-                    <img id="localisation" src="images/icon/localisation.png">
+                    <div class="locate"><i class="fa-solid fa-location-dot"></i></div>
                     <input type="text" name="ville" placeholder="Marseille, France">
                         <input type="submit" value="Rechercher">
                     </form>
@@ -47,9 +49,13 @@
                     <input class="button-filters" type="button" value="Nos pépites">
                 </section>
             </div>
+            <div class="info">
+                <i class="fa-solid fa-info"></i> Plus de 500 logements sont disponibles dans cette villes
+
+            </div>
 
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section id="ancre-hebergements" class="hebergements">
 
                 </section>
                 <section class="populaires">
@@ -112,9 +118,78 @@
                     </div>
                 </section>
             </div>
+
+            <section class="activites-section">
+                <h2 id ="ancre-activites" class="activites-title">Activités à Marseille</h2>
+                <div class="activites-card">
+                    <article class="card">
+                        <img src="./images/activites/reno-laithienne.jpg" alt="Image du vieux port">
+                        <div class="card-content">
+                            <div class="card-txt">
+                                <h3 class="card-title">Vieux-Port</h3>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="./images/activites/paul-hermann.jpg" alt="Image du Fort de pomègues">
+                        <div class="card-content">
+                            <div class="card-txt">
+                                <h3 class="card-title">Fort de pomègues</h3>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image du Parc national des Calanques">
+                        <div class="card-content">
+                            <div class="card-txt">
+                                <h3 class="card-title">Parc national des Calanques</h3>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="./images/activites/florian-wehde.jpg" alt="Image de Notre-Dame-de-la-Garde">
+                        <div class="card-content">
+                            <div class="card-txt">
+                                <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                            </div>
+                        </div>
+                    </article>                
+
+
+
+                </div>
+
+
+
+
+                
+            </section>
         </main>
-        <footer></footer>
-    </div>
+        <footer>
+        <div class="container-row">
+            <h3> A propos </h3>
+            <ul class="container-column-ul">
+                <li><a href="">Fonctionnement du site du site </li>
+                <li><a href="">Condition générales</li>
+                <li><a href="">Données et confidentalité</li>
+            </ul>
+        </div>
+        <div class="container-row">
+            <h3> Nos hébergements </h3>
+            <ul class="container-column-ul">
+                <li><a href="">Charte qualité</li>
+                <li><a href="">Proposer votre hôtel</li>
+            </ul>
+        </div>
+        <div class="container-row">
+            <h3> A propos </h3>
+            <ul class="container-column-ul">
+                 <li><a href="">Centre d'aide </li>
+                 <li><a href="">Nous contacter</li>
+             </ul>
+        </div>
+    </footer>
+
 </body>
 
 </html>
