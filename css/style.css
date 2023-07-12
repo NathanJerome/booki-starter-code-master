@@ -124,6 +124,7 @@ input[type="text"]{
 body {
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
 }
 
 .main-container {
@@ -317,6 +318,12 @@ footer {
     padding: 5px;
 }
 
+/* Ajout d'un selecteur a uniquement pour les liens afin d'éviter la décoration */
+
+.a-card{
+    text-decoration: none;
+    color: black;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
