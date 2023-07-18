@@ -42,6 +42,7 @@ nav a:hover{
     border-top: solid 2px #0065FC;
 }
 
+
 h2 {
     margin-BOTTOM: 0px; 
 }
@@ -479,6 +480,8 @@ footer {
 
     nav ul{
         padding: 0;
+        display: inline-flex;
+        width: 100%;
     }
 
     .hebergements-and-populaires{
