@@ -105,7 +105,6 @@ input[type="text"]{
 }
 
 section span{
-    display: flex;
     font-weight: 700;
  }
     
@@ -145,7 +144,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    padding: 0 2%;
     box-sizing: border-box;
 }
 
@@ -301,9 +300,6 @@ h4{
     object-fit: cover;
 }
 
-.card-txt{
-    margin: 10px;
-}
 
 a.a-card{
     width: 22%;
