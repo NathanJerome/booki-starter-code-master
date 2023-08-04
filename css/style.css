@@ -153,6 +153,11 @@ body {
     font-size: 22px;
 }
 
+/*On mets la dernière étoiles en gris/blanc*/
+.neutral-star{
+    color: #F2F2F2;
+}
+
 .card {
     background-color: white;
     border-radius: 20px;
@@ -166,6 +171,11 @@ body {
 
 .card-title {
     font-size: 16px;
+}
+
+.activites-section .card-title{
+    text-align: left;
+    margin-left: 3px;
 }
 
 .euro {
@@ -259,6 +269,14 @@ h4{
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
+}
+
+
+
+/** Modification de la taille de mon card content*/
+.activites-card .card-content{
+    height: 40px;
+    text-align: center;
 }
 
 .populaires-cards .card-title .activites.card {
@@ -435,7 +453,7 @@ footer {
 
     }
 
-    section span{
+    section button span {
          display: none;
     }
 
