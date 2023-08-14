@@ -614,4 +614,9 @@ footer {
     .hebergements-cards .card{
         width: 100%;
     }
+
+    /* Augmentation de la taille du form pour correspondre a la maquette*/
+    input[type="text"] {
+        width: 80%;
+    }
 }
